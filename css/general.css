@@ -1,4 +1,69 @@
+:root {
+  padding: 0;
+  margin: 0;
+  font-size: 10px;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/Roboto.woff2");
+}
+
 body {
-    padding: 0;
-    margin: 0;
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto", sans;
+}
+
+.header-left {
+  flex: 2 0 0;
+  display: flex;
+  align-items: center;
+}
+
+.header-left img {
+  width: 40px;
+  height: 40px;
+  margin-right: 1.5rem;
+}
+
+.header-left input#search-bar {
+  flex: 1 0 0;
+  height: 100%;
+  border-radius: 10px;
+  border: none;
+  padding: 0 10px;
+  font-size: 1.6rem;
+}
+
+.header-right {
+  flex: 1 0 0;
+  display: flex;
+  gap: 50px;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.header-right > div {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+.header-right .profile-image img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+
+.header-right img {
+  width: 40px;
+  height: 40px;
+}
+
+.header-right p {
+  padding: 0;
+  margin: 0;
+  font-size: 3rem;
+  font-weight: 500;
 }

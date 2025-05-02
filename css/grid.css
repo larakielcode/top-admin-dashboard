@@ -9,11 +9,9 @@
 .header-container {
   grid-column: 2 / 4;
   background: red;
-}
-
-.search-icon img {
-  width: 40px;
-  aspect-ratio: 1 / 1;
+  display: flex;
+  column-gap: 50px;
+  padding: 20px;
 }
 
 .left-nav-container {
