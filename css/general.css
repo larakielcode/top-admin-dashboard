@@ -2,6 +2,18 @@
   padding: 0;
   margin: 0;
   font-size: 10px;
+
+  ---main-blue: #1992D4;
+  --second-white: #E2E8F0;
+  --main-white: #FFFFFF;
+  --main-yellow: #F0B429;
+  --main-black: #000000;
+  --main-box-shadow: 0px 7px 5px 0px rgba(163, 163, 163, 0.4);
+}
+
+p {
+  padding: 0;
+  margin: 0;
 }
 
 @font-face {
@@ -15,13 +27,6 @@ body {
   font-family: "Roboto", sans;
 }
 
-/* .header-left {
-  flex: 2 0 0;
-  display: flex;
-  align-items: center;
-  margin-right: 50px;
-} */
-
 .header-left {
   grid-column: 1 / 2;
   display: flex;
@@ -29,8 +34,8 @@ body {
 }
 
 .header-left img {
-  width: 30px;
-  height: 30px;
+  width: 3rem;
+  height: 3rem;
   margin-right: 1.5rem;
   aspect-ratio: 1;
   padding: 0;
@@ -38,51 +43,71 @@ body {
 
 .header-left input#search-bar {
   flex: 1 0 0;
-  border-radius: 20px;
+  border-radius: 2rem;
   border: none;
-  height: 40px;
+  height: 4rem;
   font-size: 1.6rem;
-  padding: 0 15px;
+  padding: 0 2rem;
   outline: none;
   background-color: #ddd;
 }
 
-/* .header-right {
-  flex: 1 0 0;
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-  margin-left: 50px;
-  gap: 30px;
-} */
-
 .header-right {
+  margin-left: 15rem;
   grid-column: 2 / 3;
   display: flex;
   align-items: center;
-  gap: 30px;
+  gap: 4rem;
 }
 
-.header-right > div {
+.header-right>div {
   display: flex;
   align-items: center;
-  gap: 30px;
+  gap: 4rem;
 }
 
-.header-right .profile-image img {
-  width: 60px;
-  height: 60px;
+.header-right .profile-image-small img {
+  width: 5rem;
+  height: 5rem;
   border-radius: 50%;
 }
 
 .header-right img {
-  width: 30px;
-  height: 30px;
+  width: 3rem;
+  height: 3rem;
 }
 
 .header-right p {
-  padding: 0;
-  margin: 0;
-  font-size: 3.4rem;
+  font-size: 2.6rem;
   font-weight: 700;
+}
+
+.header-bottom {
+  margin-top: 3rem;
+}
+
+.header-bottom .profile-image-big img {
+  width: 9rem;
+  height: 9rem;
+  border-radius: 50%;
+}
+
+button.header-btm-right-btn {
+  padding: 1.5rem 4rem;
+  border-radius: 3rem;
+  border: none;
+  font-size: 2rem;
+  font-weight: 600;
+  background-color: var(---main-blue);
+  color: var(--main-white);
+}
+
+p.tiny-label {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+p.main-label {
+  font-size: 3.2rem;
+  font-weight: 900;
 }
