@@ -17,12 +17,6 @@
   gap: 3rem;
 }
 
-.content-container {
-  grid-column: 2 / 3;
-  grid-row: 2 / span 2;
-  background-color: yellow;
-}
-
 .right-sidebar-container {
   grid-column: 3 / 4;
   grid-row: 2 / 4;
@@ -102,4 +96,26 @@
   grid-auto-flow: column;
   grid-template-columns: 1fr 6fr;
   align-items: center;
+}
+
+/* Start Content CSS */
+.content-wrapper {
+  grid-column: 2 / 3;
+  grid-row: 2 / span 2;
+  background-color: yellow;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 0.5fr 10fr;
+}
+
+.content-main-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-auto-columns: min-content;
+  justify-content: space-around;
+  gap: 10px;
+}
+
+.content-main-container>div {
+  background-color: pink;
 }
