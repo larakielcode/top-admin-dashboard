@@ -4,6 +4,7 @@
   font-size: 10px;
 
   --main-blue: #1992D4;
+  --dark-blue: #066192;
   --second-white: #E2E8F0;
   --main-white: #FFFFFF;
   --main-yellow: #F0B429;
@@ -12,6 +13,17 @@
 }
 
 p {
+  padding: 0;
+  margin: 0;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  list-style: none;
   padding: 0;
   margin: 0;
 }
@@ -68,8 +80,8 @@ body {
 }
 
 .header-right .profile-image-small img {
-  width: 5rem;
-  height: 5rem;
+  width: 6rem;
+  height: 6rem;
   border-radius: 50%;
 }
 
@@ -81,10 +93,6 @@ body {
 .header-right p {
   font-size: 2.6rem;
   font-weight: 700;
-}
-
-.header-bottom {
-  margin-top: 3rem;
 }
 
 .header-bottom .profile-image-big img {
@@ -120,7 +128,63 @@ p.main-label {
   filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(75deg) brightness(100%) contrast(100%);
 }
 
+.left-middle-nav {
+  padding: 0 2rem;
+}
+
 .left-nav-container p.logo-title {
   font-size: 3.2rem;
   font-weight: 700;
+}
+
+.left-middle-nav ul>li img {
+  width: 3rem;
+  height: 3rem;
+  aspect-ratio: 1;
+  justify-self: center;
+  filter: brightness(0) invert(1);
+}
+
+.left-middle-nav>ul>li p {
+  font-size: 2rem;
+  font-weight: 700;
+  text-indent: 1rem;
+}
+
+.left-middle-nav>ul>li {
+  padding: 0.6rem 0;
+  border-radius: 0.5rem;
+}
+
+.left-middle-nav>ul>li:hover {
+  background-color: var(--dark-blue);
+  cursor: pointer;
+}
+
+.left-bottom-nav {
+  padding: 0 2rem;
+}
+
+.left-bottom-nav ul>li img {
+  width: 3rem;
+  height: 3rem;
+  aspect-ratio: 1;
+  justify-self: center;
+  filter: brightness(0) invert(1);
+}
+
+.left-bottom-nav>ul>li {
+  padding: 0.6rem 0;
+  border-radius: 0.5rem;
+}
+
+.left-bottom-nav>ul>li:hover {
+  background-color: var(--dark-blue);
+  cursor: pointer;
+}
+
+.left-bottom-nav>ul>li p {
+  font-size: 2rem;
+  font-weight: 700;
+  text-indent: 1rem;
 }
