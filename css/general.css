@@ -2,6 +2,7 @@
   padding: 0;
   margin: 0;
   font-size: 10px;
+  font-weight: 400;
 
   --main-blue: #1992D4;
   --dark-blue: #066192;
@@ -147,7 +148,7 @@ p.main-label {
 
 .left-middle-nav>ul>li p {
   font-size: 2rem;
-  font-weight: 700;
+  font-weight: 600;
   text-indent: 1rem;
 }
 
@@ -185,6 +186,6 @@ p.main-label {
 
 .left-bottom-nav>ul>li p {
   font-size: 2rem;
-  font-weight: 700;
+  font-weight: 600;
   text-indent: 1rem;
 }
