@@ -235,3 +235,101 @@ p.main-label {
 .content-card div:nth-child(2) a:hover {
   filter: brightness(1) invert(1);
 }
+
+/* Start Right Side Bar CSS */
+.right-sidebar-container {
+  width: 100%;
+}
+
+.right-sidebar-content-container {
+  padding: 0 5rem 0 0;
+}
+
+.right-sidebar-content-container h2 {
+  font-size: 2.8rem;
+  padding: 0;
+  margin: 0 0 1rem 0;
+}
+
+.right-sidebar-content {
+  width: 100%;
+  border: 1px solid white;
+  margin-bottom: 3rem;
+}
+
+.right-sidebar-content-container p {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.right-sidebar-content p:nth-child(2) {
+  font-size: 1.2rem;
+  color: var(--gray-color);
+  font-weight: 400;
+}
+
+.right-sidebar-content {
+  background-color: var(--main-white);
+  border-radius: 1rem;
+  box-shadow: var(--main-card-shadow);
+  padding: 3rem 4rem 0 3rem;
+  box-sizing: border-box;
+}
+
+.right-sidebar-content .right-side-contents {
+  margin-bottom: 2.5rem;
+}
+
+.right-sidebar-content .right-side-contents:not(:first-child) {
+  margin-top: 2.5rem;
+}
+
+.right-sidebar-content hr {
+  border: 1px solid var(--second-white);
+  border-width: thin;
+}
+
+.right-sidebar-btm-container {
+  background-color: var(--main-white);
+  border-radius: 1rem;
+  box-shadow: var(--main-card-shadow);
+  padding: 3rem 4rem 0 3rem;
+  box-sizing: border-box;
+}
+
+.right-sidebar-btm-content>.right-sidebar-btm-profile {
+  width: 6rem;
+  margin-right: 2rem;
+}
+
+.right-sidebar-btm-content>div:last-child {
+  align-self: center;
+}
+
+.right-sidebar-btm-content p:first-of-type {
+  font-size: 1.5rem;
+  font-weight: 500;
+  padding: 0;
+}
+
+.right-sidebar-btm-content p:last-child {
+  font-weight: 400;
+}
+
+.right-sidebar-btm-content a {
+  text-decoration: none;
+  color: var(--main-black);
+}
+
+.right-sidebar-btm-content a:hover {
+  text-decoration: underline;
+  color: var(--gray-color);
+}
+
+.right-sidebar-btm-content img {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  border-radius: 50%;
+}
