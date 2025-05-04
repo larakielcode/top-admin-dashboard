@@ -333,3 +333,26 @@ p.main-label {
   object-fit: cover;
   border-radius: 50%;
 }
+
+footer {
+  padding: 2rem 0;
+  font-size: 1.2rem;
+  text-align: center;
+  font-weight: 400;
+  font-weight: 600;
+}
+
+footer a {
+  padding: 0.5rem 0.5rem;
+  text-decoration: none;
+  color: var(--main-black);
+  background-color: var(--main-yellow);
+  border-radius: 0.5rem;
+}
+
+footer a:hover {
+  text-decoration: underline;
+  background-color: var(--main-blue);
+  border-radius: 0.5rem;
+  color: var(--main-white);
+}

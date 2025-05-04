@@ -42,12 +42,6 @@
   justify-content: space-around;
 }
 
-.footer-container {
-  grid-column: 1 / 4;
-  grid-row: 4;
-  background-color: blueviolet;
-}
-
 /* Start Left Nav grid code */
 .left-nav-container {
   grid-column: 1 / 2;
@@ -141,4 +135,12 @@
 
 .right-sidebar-btm-content>div {
   margin-bottom: 30px;
+}
+
+/* Start Footer Container */
+
+footer {
+  grid-column: 1 / 4;
+  grid-row: 4;
+  background-color: var(--main-white);
 }
