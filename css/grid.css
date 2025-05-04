@@ -15,6 +15,7 @@
   margin-bottom: 3rem;
   box-shadow: var(--main-box-shadow);
   gap: 3rem;
+  background-color: var(--main-white);
 }
 
 .right-sidebar-container {
@@ -102,20 +103,28 @@
 .content-wrapper {
   grid-column: 2 / 3;
   grid-row: 2 / span 2;
-  background-color: yellow;
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 0.5fr 10fr;
+  padding: 0 5rem;
 }
 
 .content-main-container {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
   grid-auto-columns: min-content;
   justify-content: space-around;
-  gap: 10px;
+  grid-auto-rows: min-content;
+  gap: 4rem;
 }
 
 .content-main-container>div {
-  background-color: pink;
+  background-color: var(--main-white);
+  border-radius: 1rem;
+  border-left: 1rem solid var(--main-yellow);
+  box-shadow: var(--main-card-shadow);
+  padding: 3rem 2rem 0 2rem;
+  display: flex;
+  flex-direction: column;
+  position: relative;
 }
